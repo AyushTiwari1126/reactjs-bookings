@@ -1,5 +1,5 @@
 .header {
-  background-color: #003580;
+  background-color: maroon;
   color: white;
   display: flex;
   justify-content: center;
@@ -26,6 +26,13 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.headerListItem:hover{
+  border : 1px solid white;
+  border-radius: 20px;
 }
 
 .headerListItem.active {
@@ -48,14 +55,14 @@
 }
 
 .headerSearch {
-  height: 30px;
+  height: 40px;
   background-color: white;
   border: 3px solid #febb02;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 10px 0px;
-  border-radius: 5px;
+  border-radius: 30px;
   position: absolute;
   bottom: -25px;
   width: 100%;
